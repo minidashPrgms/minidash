@@ -22,6 +22,11 @@ npm install minidash
 
 ```js
 const minidash = require('minidash');
+
+checkeArr([1, 2]); // true
+capitalize('aBCDefg'); // Abcdefg
+findEvenNums([1, 2, 3, 4]); // [2, 4]
+findOddNums([1, 2, 3, 4]); // [1, 3]
 ```
 
 ## 기여하는 방법
